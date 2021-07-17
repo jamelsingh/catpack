@@ -7,7 +7,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sandy1709/catuserbot/",
+  "repository": "https://github.com/Sur-vivor/CatUserbot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -61,8 +61,8 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "goodcat",
+      "description": "Use either goodcat or surcat .if you need custom deploy then type your git repo link",
+      "value": "surcat",
       "required": false
     }
   },
