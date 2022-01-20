@@ -7,6 +7,9 @@ Main source is here [main source](https://github.com/sandy1709/catuserbot) fork 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/jamelsingh/catpack&template=https://github.com/jamelsingh/catpack)
 
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://generatestringsession.sandeep1709.repl.run)
+
+
 ## credits
    - [@midnightmadwalk](https://t.me/midnightmadwalk)
    - [@DeletedUser420](https://t.me/DeletedUser420)
