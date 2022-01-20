@@ -62,7 +62,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "Use either goodcat or surcat .if you need custom deploy then type your git repo link",
-      "value": "Catuserbot1",
+      "value": "https://github.com/jamelsingh/catuserbot1",
       "required": false
     }
   },
