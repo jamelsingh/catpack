@@ -29,7 +29,7 @@ _get_repolink () {
     if [[ $UPSTREAM_REPO == "goodcat" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90" | base64 -d`
-    elif [[ $UPSTREAM_REPO == "surcat" ]]
+    elif [[ $UPSTREAM_REPO == "Catuserbot1" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1N1ci12aXZvci9DYXRVc2VyYm90" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
