@@ -6,6 +6,7 @@ Main source is here [main source](https://github.com/sandy1709/catuserbot) fork 
 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FSur-vivor%2Fnekopack&template=https%3A%2F%2Fgithub.com%2FSur-vivor%2Fnekopack)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/jamelsingh/catpack&template=https://github.com/jamelsingh/catpack)
 
 ## credits
    - [@midnightmadwalk](https://t.me/midnightmadwalk)
