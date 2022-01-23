@@ -5,7 +5,13 @@ _get_ziplink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "goodcat" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2phbWVsc2luZ2gvQ2F0VXNlcmJvdDEvYXJjaGl2ZS9tYXN0ZXIuemlw==" | base64 -d
+    elif [[ $UPSTREAM_REPO == "tamcat" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2phbWVsc2luZ2gvQ2F0VXNlcmJvdDEvYXJjaGl2ZS9tYXN0ZXIuemlw==" | base64 -d
+    elif [[ $UPSTREAM_REPO =~ $regex ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1N1ci12aXZvci9DYXRVc2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d 
     elif [[ $UPSTREAM_REPO == "surcat" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1N1ci12aXZvci9DYXRVc2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
@@ -29,6 +35,11 @@ _get_repolink () {
     if [[ $UPSTREAM_REPO == "goodcat" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3NhbmR5MTcwOS9jYXR1c2VyYm90" | base64 -d`
+    elif [[ $UPSTREAM_REPO == "tamcat" ]]
+    then
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1N1ci12aXZvci9DYXRVc2VyYm90" | base64 -d`
+    elif [[ $UPSTREAM_REPO =~ $regex ]]
+    then
     elif [[ $UPSTREAM_REPO == "surcat" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1N1ci12aXZvci9DYXRVc2VyYm90" | base64 -d`
