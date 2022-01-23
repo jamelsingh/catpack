@@ -61,8 +61,8 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "repo link",
-      "value": "https://github.com/jamelsingh/catuserbot1",
+      "description": "repo name(goodcat or tacat)",
+      "value": "tacat",
       "required": true
     }
   },
