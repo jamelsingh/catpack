@@ -8,11 +8,13 @@ Main source is here [main source](https://github.com/sandy1709/catuserbot) fork 
 
 ## termux string
  ⬇️Just copy paste to termux app⬇️
+
 ```
 pkg install python git openssl wget -y &&
 pip install telethon && 
 wget  https://raw.githubusercontent.com/jamelsingh/Tamilcatuserbot/master/stringsetup.py && 
 python3 stringsetup.py
+```
 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/jamelsingh/catpack&template=https://github.com/jamelsingh/catpack)
