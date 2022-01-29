@@ -21,5 +21,6 @@ python3 stringsetup.py
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/jamelsingh/catpack&template=https://github.com/jamelsingh/catpack)
 
 ## credits
-   - [@midnightmadwalk](https://t.me/midnightmadwalk)
-   - [@DeletedUser420](https://t.me/DeletedUser420)
+  
+   - [CAT USERBOT](https://github.com/sandy1709/catuserbot)
+   
