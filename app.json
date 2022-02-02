@@ -61,7 +61,7 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "repo name(goodcat or tacat)",
+      "description": "repo name goodcat or tacat (tacat-Tamilcatuserbot)",
       "value": "tacat",
       "required": true
     }
