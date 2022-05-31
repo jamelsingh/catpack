@@ -1,0 +1,11 @@
+version: "3.9.6"
+services:
+  worker:
+    build: .
+    environment:
+      - API_ID=${API_ID}
+      - API_HASH=${API_HASH}
+      - BOT_TOKEN=${BOT_TOKEN}
+      - TG_BOT_USERNAME=${TG_BOT_USERNAME}
+      - ALIVE_NAME=${ALIVE_NAME}
+      - STRING_SESSION=${STRING_SESSION}
