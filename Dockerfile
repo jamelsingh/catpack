@@ -11,3 +11,20 @@ RUN pip3 install -U -r requirements.txt
 ENV PATH="/home/userbot/bin:$PATH"
 
 CMD ["python3","-m","userbot"]
+
+
+
+
+FROM python-3.9.6
+
+WORKDIR /root/userbot
+
+COPY requirements.txt /app/
+
+RUN pip3 install -U -r requirements.txt
+
+COPY . /app
+
+#set a default command
+
+CMD "python3","-m","userbot"
