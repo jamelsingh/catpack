@@ -15,7 +15,7 @@ CMD ["python3","-m","userbot"]
 
 
 
-FROM python-3.9
+FROM python-3.10
 
 WORKDIR /root/userbot
 
