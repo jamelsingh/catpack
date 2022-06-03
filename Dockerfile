@@ -1,4 +1,4 @@
-FROM sandy1709/catuserbot:alpine
+
 
 #clonning repo 
 RUN git clone https://github.com/jamelsingh/Tamilcattuserbot.git /root/userbot
